@@ -1,0 +1,20 @@
+import javax.swing.JFrame;
+
+public class SetFrameSizePosition {
+    public static void main(String[] args) {
+        // Create a JFrame instance
+        JFrame frame = new JFrame("Set Frame Size and Position");
+        
+        // Set size of the frame
+        frame.setSize(400, 300); // Width: 400, Height: 300
+        
+        // Set position of the frame (x: 100, y: 150)
+        frame.setLocation(100, 150);
+
+        // Set default close operation
+        frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+
+        // Make the frame visible
+        frame.setVisible(true);
+    }
+}

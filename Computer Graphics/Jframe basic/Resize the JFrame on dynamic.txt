@@ -1,0 +1,20 @@
+import javax.swing.JFrame;
+
+public class ResizeFrame {
+    public static void main(String[] args) {
+        // Create a JFrame instance
+        JFrame frame = new JFrame("Resize JFrame Dynamically");
+        
+        // Set initial size of the frame
+        frame.setSize(300, 200);
+
+        // Enable resizing of the frame
+        frame.setResizable(true); // Allow dynamic resizing
+
+        // Set default close operation
+        frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+
+        // Make the frame visible
+        frame.setVisible(true);
+    }
+}

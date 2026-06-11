@@ -1,0 +1,17 @@
+import javax.swing.JFrame;
+
+public class OpenCloseJFrame {
+    public static void main(String[] args) {
+        // Create a new JFrame instance
+        JFrame frame = new JFrame("Open and Close JFrame");
+        
+        // Set size of the frame
+        frame.setSize(300, 200);
+
+        // Set default close operation to exit
+        frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        
+        // Make the frame visible
+        frame.setVisible(true);
+    }
+}
